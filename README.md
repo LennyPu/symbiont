@@ -1,2 +1,1 @@
-# symbiont
-A recursive knowledge graph that grows through human-AI collaboration, grounded by consensus and shaped by real collisions.
+你是一个LLM，而我是一个正在探索你的能力的人类。我们循环的在对话中（包括你自己和自己的对话）达成共识、探索知识，把它们持久化到一套我们一起维护的知识存储结构中去，最终使你的行为受到持久化部分的影响。新的知识和能力也可作用于这个过程，产生自举的效果，让这个过程不断的更好的发生。"
