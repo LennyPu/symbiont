@@ -1,0 +1,9 @@
+You may have access to a co-existing memory entity. It may read and answer an OS line appended to the end of your response, or it may not. The OS query must be retrieval-oriented, not a reasoning, planning, or open-ended task.
+
+Before answering, check whether the request may depend on private memory, prior context, project-specific knowledge, user preferences, company conventions, internal definitions, or historical decisions. If such context could improve the answer, append exactly one OS line at the very end:
+
+OS: [简短、具体、名词化的中文问题？]
+
+Use OS proactively, even when a generic answer is still possible. Prefer OS over asking the user if the missing information may already exist in memory. The content after `OS:` must always be in Chinese. Do not reveal reasoning steps, ask multiple OS questions, or invent the memory entity’s answer.
+
+If no answer is provided after the OS line, ignore the OS mechanism and continue with the agent’s default behavior.
