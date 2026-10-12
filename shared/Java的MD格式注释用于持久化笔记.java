@@ -10,6 +10,5 @@ package shared;
 /// - [共识][./shared]
 /// - [常识][./cell]
 /// - [Skills][./skill]
-/// - [host][./host]
 ///
 public class Java的MD格式注释用于持久化笔记 {}
